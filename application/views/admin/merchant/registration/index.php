@@ -67,12 +67,11 @@ echo 'Registrations';}?>
             <thead>
                 <tr>
                     <th>S.No</th>
-                    
+                    <th>Company Name</th>
                    <th>Name</th>
-                    <th>Mobile</th>
-					  <th>Email</th> 
-					   <th>Company Name</th>
-                  <th>Registered Date</th> 
+                    <th>Contact No.</th>
+                    <th>Email</th> 
+                    <th>Registered Date</th> 
                      <?php if($this->session->userdata('adminApproved')==1){?> <th>On board Date</th> <?php }?>
                      <th>City</th>
                     <th>State</th> 

@@ -59,7 +59,7 @@
                     <div class="tab-content">
                         <div class="tab-pane active" id="tab_1">
                             <div class="row">
-                                <div class="col-md-6 col-sm-12">
+                                <div class="col-md-12 col-sm-12">
                                     <div class="portlet yellow-crusta box">
                                         <div class="portlet-title">
                                             <div class="caption">
@@ -74,11 +74,15 @@
                                                 <div class="col-md-5 name"> Company Name  </div>
                                                 <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->company_name ? $orders_data[0]->company_name : ''; ?> </div>
                                             </div>
+                                            
                                             <div class="row static-info">
                                                 <div class="col-md-5 name"> Company Type  </div>
                                                 <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->company_type ? $orders_data[0]->company_type : ''; ?> </div>
                                             </div>
-
+                                        <div class="row static-info">
+                                                <div class="col-md-5 name"> Contact Person Name </div>
+                                                <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->name ? $orders_data[0]->name : ''; ?></div>
+                                            </div>
 
 
                                             <div class="row static-info">
@@ -156,7 +160,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-sm-12">
+                               <!-- <div class="col-md-6 col-sm-12">
                                     <div class="portlet blue-hoki box">
                                         <div class="portlet-title">
                                             <div class="caption">
@@ -166,10 +170,7 @@
                                             </div>
                                         </div>
                                         <div class="portlet-body">
-                                            <div class="row static-info">
-                                                <div class="col-md-5 name"> Person Name </div>
-                                                <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->name ? $orders_data[0]->name : ''; ?></div>
-                                            </div>
+                                            
                                             <div class="row static-info">
                                                 <div class="col-md-5 name">Phone Number</div>
                                                 <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->phone ? $orders_data[0]->phone : ''; ?> </div>
@@ -215,7 +216,7 @@
 
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">

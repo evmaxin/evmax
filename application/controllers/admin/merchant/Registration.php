@@ -82,14 +82,15 @@ class Registration extends CI_Controller {
             $full_url = base_url() . "admin/merchant/registration/threesixtydegrees/" . $customers->m_registration_id;
             $no++;
             $row = array();
-
+            
             $fullname = $customers->first_name . " " . $customers->last_name;
             $row[] = $no;
             //$row[] = $customers->company_type;
             $row[] = $fullname;
-            $row[] = $customers->mobile;
-            $row[] = $customers->email;
             $row[] = $customers->company_name;
+            $row[] = $customers->business_contact_no;
+            $row[] = $customers->business_email;
+           
             $row[] = $customers->date;
            if($this->session->userdata('adminApproved')==1){
              $row[] = $customers->onBoardDate;

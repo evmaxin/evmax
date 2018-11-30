@@ -38,6 +38,27 @@ class Registration extends CI_Controller {
 	$template['content'] = $this->load->view('frontpages/merchant_reg/index', $contents, TRUE);
         $this->load->view('frontpages/template_merchant_reg', $template);
     }
+       public function faq() {
+          $this->load->helper('utilities_helper');//email setting avialble here
+        if(isset($_REQUEST['email']))
+        {
+        $this->session->set_userdata('sess_email',$_REQUEST['email']);
+        }
+        $this->load->model(array('Common_model' => 'common'));
+        $template['title'] = "Register";
+        $contents = array('meta_keywords' => 'Register',
+            'meta_description' => 'Register',
+            'meta_title' => 'Register');
+
+        $contents['com_type'] = $this->common->getTableData($tablename = "m_company_type", $cols = "m_company_type_id,company_type,status");
+        $contents['term_docs'] = $this->common->getTermDocs();
+        $contents['states'] = $this->common->getTableData($tablename = "state", $cols = "state_id,state_name,status",array(),"asc","state_name");
+        //echo $this->db->last_query(); exit;
+        $contents['category_interested'] = $this->common->getTableData($tablename = "m_category", $cols = "m_category_id,category_name,status");
+        
+	$template['content'] = $this->load->view('frontpages/merchant_reg/faq', $contents, TRUE);
+        $this->load->view('frontpages/template_merchant_reg', $template);
+    }
      public function verifyOTP() {
            $this->load->helper('log_helper');//email setting avialble here
              $this->load->helper('utilities_helper');//email setting avialble here
@@ -113,6 +134,7 @@ class Registration extends CI_Controller {
         $data = array(
             'm_company_type_id' => $this->input->post('company_type'),
             'company_name' => $this->input->post('companyname'),
+            'name' => $this->input->post('name'),
             'address1' => $this->input->post('address'),
             'city' => $this->input->post('city'),
             'state_id' => $this->input->post('state_id'),
@@ -126,17 +148,6 @@ class Registration extends CI_Controller {
             'bankbranch' => $this->input->post('bankbranch'),
             'bank_account' => $this->input->post('bankAccount'),
             'account_name' => $this->input->post('accountName'),
-            'surname' => $this->input->post('Surnam'),
-            'name' => $this->input->post('name'),
-            'person_address' => $this->input->post('person_address'),
-            'person_city' => $this->input->post('person_city'),
-            'person_state_id' => $this->input->post('person_state_id'),
-            'person_pincode' => $this->input->post('person_pincode'),
-            'person_email' => $this->input->post('person_email'),
-            'phone' => $this->input->post('person_contact_num'),
-            'alternative_number' => $this->input->post('bankAccount'),
-            'person_pan_num' => $this->input->post('person_pan_num'),
-            'adhaar' => $this->input->post('adhaar'),
             'otp' => $otp,
             'regDate' => date('Y-m-d H:i:s'),
         );

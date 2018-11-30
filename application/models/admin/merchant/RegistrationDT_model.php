@@ -17,7 +17,7 @@ class RegistrationDT_model extends CI_Model {
 
 	private function _get_datatables_query()
 	{
-		$this->db->select("st.state_name as state,group_concat(cat.category_name) as category_name,a.m_registration_id,a.surname as first_name,a.name as last_name,a.phone as mobile,a.company_name as company_name,a.address1 as website,a.person_address as address2,a.person_city as city,a.person_email as email,a.business_email as business_email,a.admin_approved as status,DATE_FORMAT(a.regDate, '%M %d %Y, %h:%m %p') as date,DATE_FORMAT(a.onBoardDate, '%M %d %Y, %h:%m %p') as onBoardDate");
+		$this->db->select("a.business_contact_no,st.state_name as state,group_concat(cat.category_name) as category_name,a.m_registration_id,a.surname as first_name,a.name as last_name,a.phone as mobile,a.company_name as company_name,a.address1 as website,a.person_address as address2,a.city as city,a.person_email as email,a.business_email as business_email,a.admin_approved as status,DATE_FORMAT(a.regDate, '%M %d %Y, %h:%m %p') as date,DATE_FORMAT(a.onBoardDate, '%M %d %Y, %h:%m %p') as onBoardDate");
 		$this->db->from("$this->table a");
                  $this->db->join('m_reg_cat_interested cat_int','cat_int.m_registration_id=a.m_registration_id','inner');
                  $this->db->join('m_category cat','cat.m_category_id=cat_int.m_category_id','inner');
