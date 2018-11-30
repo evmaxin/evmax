@@ -62,3 +62,4 @@ DEBUG - 2018-11 --> Total execution time: 0.0570
 DEBUG - 2018-11 --> UTF-8 Support Enabled
 DEBUG - 2018-11 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2018-11 --> Total execution time: 0.0423
+Log files not important in application, these are just to track
