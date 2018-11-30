@@ -1,0 +1,155 @@
+/* this CSS for admin pages */
+/*body {
+	background-color: #FFF;
+	font-family:Arial, 'Helvetica', sans-serif;
+	font-size: 13px;
+}*/
+.index-page {
+	background: rgb(194,223,252); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(194,223,252,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(194,223,252,1)), color-stop(100%, rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(194,223,252,1) 0%, rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(194,223,252,1) 0%, rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(194,223,252,1) 0%, rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(194,223,252,1) 0%, rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2dffc', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */}
+
+.mt10{margin-top:10px}
+.mt20{margin-top:20px}
+.mt40{margin-top:40px}
+.mt60{margin-top:60px}
+.mt80{margin-top:80px}
+.mt100{margin-top:100px}
+.mb30{padding-bottom: 15px !important;}
+li.sidebar-search-wrapper {width: 220px;}
+.padding-top-10{padding-top:10px;}
+.padding-top-20{padding-top: 20px}
+.padding-top-50{padding-top: 50px}
+.padding-top-100 {padding-top: 100px}
+.padding-bottom-10{padding-bottom:10px;}
+.padding-bottom-20 {padding-bottom: 20px}
+.padding-bottom-30 {padding-bottom: 30px}
+.padding-bottom-40 {padding-bottom: 40px}
+.padding-bottom-50 {padding-bottom: 50px}
+.no-padding{padding:0px !important;}
+.no-padding > .form-group{ margin-bottom:0 !important; border:1px solid #FFF;}
+.no-padding >.form-group > .form-control{ border:1px solid #FFF;}
+.welcome-image {height: 400px;overflow: hidden;bottom: 20px;position: fixed}
+.home-links h5 {font-weight: 600;color: #036;border-bottom: 1px solid #C9D8E5;line-height: 25px;}
+.home-links ul li a {color: #39C;font-weight: 600;line-height: 20px;}
+.home-links ul li:nth-child(even) {color: #666;font-size: 12px;padding-bottom: 10px;}
+.sidebar-search > .input-group {border-right: 1px solid #999;margin-top: 10px;}
+.sidebar-search > .input-group > .form-control {border: none}
+.form-section {font-weight:400}
+.no-border{border:none !important}
+.fileinput-button {overflow: hidden;position: relative;}
+.fileinput-button input {cursor: pointer;direction: ltr;font-size: 200px; margin: 0; opacity: 0;position: absolute;right: 0;top: 0;}
+.welcome-line {color: #039; font-weight: 600; text-transform: capitalize;}
+.modal-table td:nth-child(1), .modal-table td:nth-child(3), .modal-table td:nth-child(5){font-weight:600; color:#069;}
+.table > thead th{background:#E4E4E4}
+.dashboard-list .table td:nth-child(5){color:#C60; font-weight:600; }
+.profile-pic{box-shadow:0px 0px 2px 2px rgba(0,0,0,.1); padding:3px;}
+
+.modal-title{line-height:2em; font-weight:600; color:#C60}
+.modal .modal-header{padding:5px 15px;}
+.modal-dialog-confirm{width:450px}
+.modal-dialog-list{width:100%; margin:0 auto;}
+.modal-dialog-medium{width:70%;}
+.modal-height form{min-height:100%;}
+.close{opacity:1!important;}
+.modal-body-update{width:60%; margin:0 auto}
+.btn-tab{background:#e2e2e2; }
+.dashboard-stat .visual{margin-bottom:35px;}
+.number{font-size:80px!important; padding-top:25px !important; padding-right:10px !important; font-weight:600 !important}
+.desc{ padding:20px 0; font-size:20px !important;}
+.more{padding:15px 0px;}
+.add-doc{ width:19px !important; height:19px; max-width:none;}
+.invoice-group tbody .form-group{margin:0}
+.invoice-group thead{background:#c2c2c2}
+.form-control{resize: none;border: 1px solid #8696A3; padding-left:5px;}
+.form-i9 .form-control { border-bottom:1px solid #069; border-top:none; border-left:none; border-right:none; padding:0px; margin:0px; padding-bottom:0px; padding-top:10px; display:inline-block; width:auto}
+.i9-view .control-label{ font-weight:600}
+.i9-view span{letter-spacing:1px; font-weight:600; line-height:25px;}
+.barcode-box{border:1px solid #036; padding:60px 10px}
+.table.table-hover.table-bordered p{text-align:left; margin:0; font-weight:600}
+.highlight{color:#F33; font-weight:600}
+.btn.lable.label-success a{color:#FFF; text-decoration:none}
+.table.emp-list > tbody > tr td:nth-child(5){color:#06C; font-weight:600}
+.table.rate-calc > tbody > tr td:nth-child(6){color:#2987B4; font-weight:600; background:#E8F4F9;}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{border-top:0px}
+.form-i9 > hr{border:1px solid #999; margin:15px ; padding:0px 10px}
+
+/*===========================accordion-table============================*/
+.accordion-table > .panel-group > .panel > .panel-heading{padding:0px;}
+.accordion-table > .panel-group .panel+.panel{margin:0}
+.accordion-table > .panel-group > .panel, .accordion-table table tr th{ border-bottom:none;}
+.accordion-table >.panel-group .panel-heading+.panel-collapse>.panel-body{border:none; padding:0}
+.accordion-table > .panel-body{ padding:0}
+.accordion-table table{ margin-bottom:0}
+.accordion-table .table tr td:nth-child(1){width:5%; text-align:center}
+.accordion-table .table tr td:nth-child(2),.accordion-table .table tr th:nth-child(2),.accordion-table .table tr th:nth-child(3),.accordion-table .table tr td:nth-child(4),.accordion-table .table tr th:nth-child(4),.accordion-table .table tr td:nth-child(5),.accordion-table .table tr td:nth-child(6) {width:10%; text-align:center}
+.accordion-table .table tr th{padding:15px 0;}
+.accordion-table >.panel-group .panel-heading table tr{ background:#FEFEFE; border-bottom:1px solid #FFF; }
+.accordion-table >.panel-group .panel-heading+.panel-collapse table tr{ background:#EFEFEF}
+.accordion-table >.panel-group .panel-heading table tr a{color:#999}
+.accordion-table >.panel-group .panel-heading table tr a:hover,.accordion-table >.panel-group .panel-heading table tr a:focus{color:#333}
+
+.card-view .title { font-weight: bold;display: inline-block; min-width: 30%;text-align: left !important;line-height:2em;}
+.success-msg .bg-success{ padding:5px; border:1px solid #690; color:#030}
+.form-group {margin-bottom:10px !important;}
+.form-heading h4{background:#EBEBEB; margin:0px 0px 10px 0px ; padding:10px 5px; font-weight:600}
+
+/* for products edit page */
+.tabbable-bordered .tab-content{
+        float: left;
+}
+.session_notifucation{
+    margin-top: 10px;
+}
+.page-header.navbar {
+    background-color: #57b952;
+}
+/* changes for evmax to background color , font style @date 24/07/2018*/
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
+color: #fff;    
+font-weight: bold;
+}
+.page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover{
+        background-color: #57b952;
+}
+.page-sidebar .page-sidebar-menu>li>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a{
+    border-top: 1px solid #fff;
+    color: #fff;
+font-weight: bold;    
+}
+.page-sidebar .page-sidebar-menu > li > a > i[class*="icon-"], .page-sidebar .page-sidebar-menu > li > a > i[class^="icon-"], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a > i[class*="icon-"], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a > i[class^="icon-"] {
+    color: #fff;
+}
+.page-sidebar .page-sidebar-menu>li.open>a, .page-sidebar .page-sidebar-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a {
+    background: #3051a0;
+    color: #fff;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar .page-sidebar-menu .sub-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li:hover>a{
+background: #3051a0;    
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li>a {
+    color: #fff;
+    font-weight: bold;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li>a>i[class*=icon-], .page-sidebar .page-sidebar-menu .sub-menu>li>a>i[class^=icon-], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li>a>i[class*=icon-], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li>a>i[class^=icon-] {
+    color: #fff;
+}
+.page-sidebar .page-sidebar-menu li:hover>a>.arrow.open:before, .page-sidebar .page-sidebar-menu li:hover>a>.arrow:before, .page-sidebar .page-sidebar-menu li>a>.arrow.open:before, .page-sidebar .page-sidebar-menu li>a>.arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li:hover>a>.arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li:hover>a>.arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li>a>.arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li>a>.arrow:before {
+    color: #fff;
+}
+body {
+    background-color: #3051a0;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover, .page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle
+{
+    background-color: #3051a0;
+}
+/* changes for evmax to background color , font style @date 24/07/2018 end*/
+.dtr-modal td{
+    padding: 2px;
+}

@@ -1,0 +1,288 @@
+<?php
+class Ajax_model extends CI_Model {
+
+        public function get_attributes($cattype_id)
+        {
+        /** Need to enable this part for multiple category_type's ex:fashion,footwear etc differanciate    
+  //Getting all attribute_id's of  Category Type  
+  $query1 = $this->db->query("SELECT a.attribute_type_id,act1.attribute_id FROM `attributes_category_type` act1 LEFT JOIN attributes a ON a.attribute_id=act1.attribute_id LEFT JOIN attribute_type_mas atype ON atype.attribute_type_id=a.attribute_type_id WHERE act1.category_type_id=$cattype_id");
+  //echo $this->db->last_query();
+    //Getting category specific attribute_id's of  Category  like saree has attribute of Freesize  
+  $query3 = $this->db->query("SELECT act1.attribute_id FROM `attributes_category_type` act1 INNER JOIN category c1 ON c1.category_id=act1.category_id WHERE act1.category_id>0");
+   
+  
+    $query1_result = $query1->result();
+  $query3_result = $query3->result();
+  $id= array();
+  //Getting all attribute_id's of  Category Type  
+  foreach($query1_result as $row){
+     $id[] = $row->attribute_id ;
+   }
+    //Getting category specific attribute_id's of  Category  like saree has attribute of Freesize  
+   foreach($query3_result as $row3){
+     $exclude_id[] = $row3->attribute_id ;
+   }
+  $room = implode(",",$id);
+  $ids = explode(",", $room);
+  
+   $part3 = implode(",",$exclude_id);
+  $exclude_ids = explode(",", $part3);
+  // comparing two arrays and remove common values like removing childen sizes(2 yrs- 3 yrs) in sizes
+  $final_attr_ids = array_diff($ids,$exclude_ids);  
+  */
+  //print_r($ids);
+                                $this->db->select('a.*');
+				$this->db->from('attributes a');
+                                $this->db->join('attribute_type_mas at','at.attribute_type_id=a.attribute_type_id','INNER');
+                                $this->db->join('attributes_category_type ac','a.attribute_id=ac.attribute_id','INNER');
+                                $this->db->join('category c','c.category_type_id=ac.category_type_id','INNER');
+                                if(isset($cattype_id) && $cattype_id>0){
+				//$this->db->where_in('ac.category_type_id', $cattype_id); 
+                                }
+                              //  $this->db->where_not_in('a.attribute_id', array('5','11'));
+                             /*  if($cattype_id==1) {$con_arr = array('1','5','6','9','11'); }
+                               else{
+                                $con_arr = array('2');   
+                               }
+                                */
+                               // $this->db->where_in('a.attribute_id', $final_attr_ids);
+                  
+                                $this->db->group_by('a.attribute_id');
+                                
+                          	$query = $this->db->get();
+                            
+                return $query->result();
+        }
+         public function get_attributesbycategory($cat_id,$cattype_id)
+        {
+       
+             if(isset($cat_id) && $cat_id>0){
+             $query1 = $this->db->query("SELECT `a`.* FROM `attributes` `a` INNER JOIN `attributes_category_type` `ac` ON `a`.`attribute_id`=`ac`.`attribute_id` INNER JOIN `category` `c` ON `c`.`category_id`=`ac`.`category_id` WHERE `c`.`category_id` = '$cat_id' ");
+           // echo $this->db->last_query();
+            $query1_result = $query1->result();
+              }
+              
+              
+              $query2 = $this->db->query("SELECT act1.attribute_id FROM `attributes_category_type` act1 INNER JOIN category c1 ON c1.category_id=act1.category_id WHERE act1.category_id>0");
+  $query2_result = $query2->result();
+  $id1= array();
+  foreach($query2_result as $row){
+     $id1[] = $row->attribute_id ;
+   }
+  $room1 = implode(",",$id1);
+  $ids1 = explode(",", $room1);
+            
+                                $this->db->select('a.*');
+				$this->db->from('attributes a');
+                                $this->db->join('attributes_category_type ac','a.attribute_id=ac.attribute_id','INNER');
+                               //$this->db->join('category c1','c1.category_type_id=ac.category_type_id','LEFT');
+                                $this->db->join('category c','c.category_id=ac.category_id','INNER');
+                                
+                           if(count($query1_result)>0)
+                         {
+                        $this->db->where('c.category_id', $cat_id); 
+                    }
+                                if(isset($cattype_id) && $cattype_id>0){
+				$this->db->where_in('ac.category_type_id', $cattype_id); 
+                                }
+                                if(!in_array($cat_id,$ids1))
+                                {
+                                $this->db->where_not_in('a.attribute_id', $ids1);
+                                }
+                                $this->db->group_by('a.attribute_id');
+                          	$query = $this->db->get();
+                               //echo $this->db->last_query();
+                return $query->result();
+        }
+        /* admin product delete from ajax from product view */
+         public function productAction($prod_id,$type) {
+            if(isset($prod_id)&&($prod_id>0))
+            {
+            $this->db->where('product_id', $prod_id);
+            $value = ($type==="activate")?0:1;//1 means archive
+            if($this->session->userdata('admin_data')['admin_id']!=1)
+            {
+                $res = $this->db->update('product', array('reqfordeactivate' => 1));
+            } else{
+            $res = $this->db->update('product', array('archive' => $value));
+            }
+            if($res){
+                  echo 1;
+            }else {
+            echo 0;
+            }
+            
+         }
+         
+            }
+             public function eRickshawAction($prod_id,$type) {
+            if(isset($prod_id)&&($prod_id>0))
+            {
+            $this->db->where('id', $prod_id);
+            $value = ($type==="activate")?1:0;//1 means archive
+           $res = $this->db->update('erickshaw_factory', array('status' => $value));
+            if($res){
+                  echo 1;
+            }else {
+            echo 0;
+            }
+            
+         }
+         
+            }
+            
+              public function BatteryAction($prod_id,$type) {
+            if(isset($prod_id)&&($prod_id>0))
+            {
+            $this->db->where('battery_id', $prod_id);
+            $value = ($type==="activate")?0:1;//1 means archive
+            if($this->session->userdata('admin_data')['admin_id']!=1)
+            {
+                $res = $this->db->update('battery', array('reqfordeactivate' => 1));
+            } else{
+            $res = $this->db->update('battery', array('archive' => $value));
+            }
+            if($res){
+                  echo 1;
+            }else {
+            echo 0;
+            }
+            
+         }
+         
+            }
+        /* admin AttrType delete from ajax from AttrType view */
+        public function destroyAttrType($id) {
+            if(isset($id)&&($id>0))
+            {
+            $this->db->delete('attribute_type_mas', array('attribute_type_id' => $id));
+                  echo 1;
+            }
+            
+        }
+        /* admin attribute delete from ajax from attribute view */
+        public function destroyAttributes($id) {
+            if(isset($id)&&($id>0))
+            {
+            $this->db->delete('attributes', array('attribute_id' => $id));
+                  echo 1;
+            }
+            
+        }
+        /* admin category delete from ajax from category view */
+         public function deleteCategory($id) {
+            if(isset($id)&&($id>0))
+            {
+            $this->db->delete('category', array('category_id' => $id));
+                  echo 1;
+            }
+            
+        }
+            public function getSubCategory($id)
+        {
+         $this->db->select('sub_category_id,name,category_id');
+        $this->db->from('sub_category');
+        //if (isset($id) && $id > 0) {
+            $this->db->where('category_id', $id);
+        //}
+        $query = $this->db->get();
+
+        return $query->result();
+        }
+           public function getBrands($id)
+        {
+         $this->db->select('brand_id,name,category_id');
+        $this->db->from('brand');
+        //if (isset($id) && $id > 0) {
+            $this->db->where('category_id', $id);
+        //}
+        $query = $this->db->get();
+
+        return $query->result();
+        }
+		 public function getModelDependecies($id)
+        {
+         $this->db->select('model_id,model_name,make_id');
+        $this->db->from('model');
+        //if (isset($id) && $id > 0) {
+            $this->db->where('make_id', $id);
+        //}
+        $query = $this->db->get();
+
+        return $query->result();
+        }
+       public function getVarientDependecies($id)
+        {
+         $this->db->select('variant_id,name,model_id');
+        $this->db->from('variant');
+        //if (isset($id) && $id > 0) {
+            $this->db->where('model_id', $id);
+        //}
+        $query = $this->db->get();
+
+        return $query->result();
+        }
+        public function AdminApproveImage($prod_id,$image_id,$type) {
+			
+			
+			if(isset($prod_id)&&($prod_id>0))
+            {
+						//$array1 = array('image_id'=>$image_id, 'product_id' => $prod_id);
+						$array1 = array('childImage' => $image_id);
+						 $array2 = array('image_id' => $image_id);
+						$this->db->where($array1);
+						
+						$this->db->or_where($array2);
+						$value = ($type === "activate")?1:0;//1 means archive
+						$res = $this->db->update('product_images', array('admin_uploaded' => $value));
+						log_message('debug', 'Some variable was correctly set1'.date("H:i:s") .$this->db->last_query());
+						
+						if($res){
+							if($image_id>0){
+							$this->updateImage($image_id,$value);
+							}
+							echo 1;
+						}else {
+						echo 0;
+						}
+						
+              }
+			 
+			
+			
+			
+			
+			
+			
+			
+			
+         /*   if(isset($prod_id)&&($prod_id>0))
+            {
+            //$array1 = array('image_id'=>$image_id, 'product_id' => $prod_id);
+            $array1 = array('product_id' => $prod_id);
+            $this->db->where($array1);
+            $value = ($type === "activate")?1:0;//1 means archive
+            $res = $this->db->update('product_images', array('admin_uploaded' => $value));
+            if($res){
+                  echo 1;
+            }else {
+            echo 0;
+            }
+            
+              }
+			  */
+         
+            }
+			public function updateImage($image_id,$value){
+				$array1 = array('childImage' => $image_id);
+						// $array2 = array('image_id' => $image_id);
+			$this->db->where($array1);
+			$res = $this->db->update('product_images', array('admin_uploaded' => $value));	
+			}
+				
+        
+
+        
+
+        
+}
