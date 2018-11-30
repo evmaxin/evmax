@@ -62,3 +62,7 @@ DEBUG - 2018-11 --> Total execution time: 0.0570
 DEBUG - 2018-11 --> UTF-8 Support Enabled
 DEBUG - 2018-11 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2018-11 --> Total execution time: 0.0423
+DEBUG - 2018-11 --> UTF-8 Support Enabled
+DEBUG - 2018-11 --> No URI present. Default controller set.
+DEBUG - 2018-11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-11 --> Total execution time: 0.0396

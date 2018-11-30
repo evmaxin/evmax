@@ -6602,3 +6602,4 @@ http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-11-30 13:16
 http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-11-30 14:18:42	0	Windows 8
 http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-11-30 14:29:50	0	Windows 8
 http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-11-30 14:30:01	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-11-30 14:48:50	0	Windows 8
