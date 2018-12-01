@@ -117,7 +117,6 @@ materials or services.</p>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>refundandcancellation" class="max8"> Refund and Cancellation |</a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>registration-process" class="max8">Registration Process | </a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>contact" class="max8">Contact</a></li>
-             
               </ul>
             </div>
           </div>
@@ -139,7 +138,6 @@ materials or services.</p>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>refundandcancellation" class="max8"> Refund and Cancellation |</a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>registration-process" class="max8">Registration Process | </a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>contact" class="max8">Contact</a></li>
-             
               </ul>
           </div>
         </div>
