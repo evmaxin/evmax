@@ -71,8 +71,11 @@ $route['battery'] = "Home/battery";
 $route['membership'] = "Home/membership";
 $route['digitalcredit'] = "Home/digitalcredit";
 $route['digitalcredit'] = "Home/digitalcredit";
-$route['terms-conditions'] = "Termsandconditions/index";
-$route['privacy-policy'] = "Termsandconditions/privacy";
+$route['terms-conditions'] = "Footerlinks/index";
+$route['privacy-policy'] = "Footerlinks/privacy";
+$route['registration-process'] = "Footerlinks/registration_process";
+$route['refundandcancellation'] = "Footerlinks/refundandcancellation";
+$route['contact'] = "Footerlinks/contact";
 //
 
 

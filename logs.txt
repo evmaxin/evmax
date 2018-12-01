@@ -6653,3 +6653,42 @@ http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.353
 http://localhost:1337/evmax/store	10.10.10.10		Chrome{70.0.3538.110}	2018-11-30 18:27:32	0	Windows 8
 http://localhost:1337/evmax/store/google	10.10.10.10	google	Chrome{70.0.3538.110}	2018-11-30 18:27:43	0	Windows 8
 http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-11-30 18:27:47	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:29:27	0	Windows 8
+http://localhost:1337/evmax/privacy-policy	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:29:34	0	Windows 8
+http://localhost:1337/evmax/terms-conditions	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:29:35	0	Windows 8
+http://localhost:1337/evmax/BecomeASeller	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:48:52	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:50:35	0	Windows 8
+http://localhost:1337/evmax/terms-conditions	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:50:40	0	Windows 8
+http://localhost:1337/evmax/privacy-policy	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:50:43	0	Windows 8
+http://localhost:1337/evmax/registration-process	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:55:44	0	Windows 8
+http://localhost:1337/evmax/registration-process	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:56:44	0	Windows 8
+http://localhost:1337/evmax/registration-process	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:57:53	0	Windows 8
+http://localhost:1337/evmax/terms-conditions	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:58:02	0	Windows 8
+http://localhost:1337/evmax/registration-process	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:58:28	0	Windows 8
+http://localhost:1337/evmax/registration-process	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 12:59:25	0	Windows 8
+http://localhost:1337/evmax/refundandcancellation	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:26:36	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:32:19	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:33:23	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:33:45	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:34:31	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:35:32	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:35:58	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:36:26	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 13:36:48	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:04:48	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:05:05	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:05:58	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:06:04	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:06:30	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:06:57	0	Windows 8
+http://localhost:1337/evmax/contact	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:07:35	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:07:52	0	Windows 8
+http://localhost:1337/evmax/refundandcancellation	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:08:15	0	Windows 8
+http://localhost:1337/evmax/refundandcancellation	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:10:06	0	Windows 8
+http://localhost:1337/evmax/refundandcancellation	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:10:49	0	Windows 8
+http://localhost:1337/evmax/refundandcancellation	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:11:42	0	Android
+http://localhost:1337/evmax/refundandcancellation	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:12:25	0	Android
+http://localhost:1337/evmax/refundandcancellation	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:12:55	0	Android
+http://localhost:1337/evmax/refundandcancellation	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:13:35	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:17:08	0	Windows 8
+http://localhost:1337/evmax/terms-conditions	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 14:17:18	0	Windows 8

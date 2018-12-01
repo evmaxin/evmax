@@ -106,15 +106,18 @@ materials or services.</p>
     <div id="copyright" class="visible-lg visible-md hidden-xs">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="col-md-3 col-sm-12 col-xs-12">
             <p>All copyrights reserved &copy; 2018 - EV MAX </p>
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="col-md-9 col-sm-12 col-xs-12">
             <div class="payment pull-right">
-              <ul>
-                  <li class="max7"><a target="_blank" href="<?php echo base_url() ?>terms-conditions" class="max8"> Conditions Of Use & Sale |</li>
+             <ul>
+                  <li class="max7"><a target="_blank" href="<?php echo base_url() ?>terms-conditions" class="max8"> Conditions Of Use & Sale |</a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>privacy-policy" class="max8">Privacy Notice | </a></li>
-              <li class="max7"><a href="#" class="max8">FAQ's </a></li>
+              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>refundandcancellation" class="max8"> Refund and Cancellation |</a></li>
+              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>registration-process" class="max8">Registration Process | </a></li>
+              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>contact" class="max8">Contact</a></li>
+             
               </ul>
             </div>
           </div>
@@ -126,8 +129,18 @@ materials or services.</p>
     <div id="copyright" class="visible-xs hidden-lg">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="col-md-12 col-sm-12 col-xs-12">
             <p>All copyrights reserved &copy; 2018 - EV MAX </p>
+          </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+            <ul>
+                  <li class="max7"><a target="_blank" href="<?php echo base_url() ?>terms-conditions" class="max8"> Conditions Of Use & Sale |</a></li>
+              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>privacy-policy" class="max8">Privacy Notice | </a></li>
+              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>refundandcancellation" class="max8"> Refund and Cancellation |</a></li>
+              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>registration-process" class="max8">Registration Process | </a></li>
+              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>contact" class="max8">Contact</a></li>
+             
+              </ul>
           </div>
         </div>
       </div>
