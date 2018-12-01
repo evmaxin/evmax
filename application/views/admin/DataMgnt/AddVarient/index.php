@@ -55,7 +55,7 @@
                                       <div class="row">
                                           <div class="col-md-12">
                                               <div class="form-group">
-                                                  <label class="control-label">Make Type<span class="required">*</span></label>
+                                                  <label class="control-label">Model<span class="required">*</span></label>
                                                   <select name="model_id" id="attribute_type"  class="form-control" required>
                                                       <option value="">Select</option>
                                                       <?php foreach ($attributetype as $type): ?>

@@ -54,10 +54,18 @@ $marker1 = array(
         public function adminemail() {
             $this->load->view('admin/email_templates/admin_order_email');
         }
-        public function pdf($order_number) {
+            public function pdf($order_number) {
             $contents['cart_session'] = $this->session->userdata('cart_session');
-             $this->load->model('admin/Orders_model', 'orders');
-        $contents['orders_data'] = $this->orders->get_ordersDetails($id=0,$order_number);
+            // $this->load->model('admin/Orders_model' => 'orders','Common_model' => 'common');
+              $this->load->model(array('admin/Orders_model'=>'orders','Common_model' => 'common'));
+              $where_cond = array(
+              'order_number' => $order_number
+               );
+               $data = $this->common->getTableData($tablename = "orders","order_id",$where_cond);
+               $id = $data[0]->order_id?$data[0]->order_id:0;
+        $contents['orders_data'] = $this->orders->get_ordersDetails($id,$order_number);
+     //   echo $this->db->last_query();
+       //exit;
            //  $this->load->model('frontend/customers_model','customers');
              //$customer_id = $this->session->userdata('customer_data') ? $this->session->userdata('customer_data')['id'] : 0;
             //$contents['customer_delhivery_address'] = $this->customers->isCustomerAddressAdded($customer_id, $add_type = 1);

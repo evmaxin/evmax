@@ -3,7 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/evmax/application/views/frontpages/buyers-guide/index.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/controllers/Footerlinks.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/frontpages/footerlinks/registration_process.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/frontpages/footerlinks/privacy.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/config/routes.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/frontpages/footerlinks/refundandcancellation.php</file>
         </group>
     </open-files>
 </project-private>

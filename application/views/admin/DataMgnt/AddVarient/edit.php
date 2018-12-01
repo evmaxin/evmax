@@ -11,7 +11,7 @@
 		<?php   //print_r($attributes); ?>
             <form action="<?php echo base_url(); ?>admin/dataMgnt/AddVarient/update/<?php echo $this->uri->segment(5)?$this->uri->segment(5):$attributes[0]->model_id ?>" method="post">
                 <div class="form-group padding-bottom-30">
-                    <label class="col-md-2 control-label">Make Name:
+                    <label class="col-md-2 control-label">Model Name:
                         <span class="required"> * </span>
                     </label>
                     <div class="col-md-10">
