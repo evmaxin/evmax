@@ -6716,3 +6716,7 @@ http://localhost:1337/evmax/Order/index	10.10.10.10	index	Chrome{70.0.3538.110}	
 http://localhost:1337/evmax/Order/success	10.10.10.10	success	Chrome{70.0.3538.110}	2018-12-01 15:42:50	10	Windows 8
 http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 15:43:01	10	Windows 8
 http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 16:18:57	10	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 17:28:28	10	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 17:28:40	10	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 17:28:41	10	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-01 17:33:56	10	Windows 8
