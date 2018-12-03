@@ -233,15 +233,16 @@
 							</div>
 							
 						</article>
-
-
+                            <div id="enquirynow">
+                    </div>
 					</div><!-- #portfolio end -->
 			
 		</div>
 	</div>
+    
 </section>
-
-<section id="enquirynow">
+                
+<section id="enquirynow1">
 
 			<div class="content-wrap001">
 

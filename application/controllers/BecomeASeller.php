@@ -162,7 +162,7 @@ class BecomeASeller extends CI_Controller {
             $this->email->to($this->input->post("email")); //customer email
             $body = $this->load->view('admin/email_templates/merchant/thankyouEnquiry', $contents, TRUE);
             //$body = $this->load->view('admin/email_templates/sendProposal', $contents, TRUE);
-            $this->email->subject('Enquiry is received - ' . $this->config->item('config_from_emailname'));
+            $this->email->subject($this->config->item('config_from_emailname').' - Enquiry Received');
             $this->email->message($body);
 
             $this->email->send();

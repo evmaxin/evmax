@@ -7,7 +7,12 @@
             background: #57b952;
     color: #fff;
     }
- 
+    .proccessing{
+        color: orange;
+    }
+    .pending{
+        color: red;
+    }
     </style>
 <div class="page-content">
      <?php if(isset($this->session->userdata('admin_data')['store_id']) && ($this->session->userdata('admin_data')['store_id']==1)){?>

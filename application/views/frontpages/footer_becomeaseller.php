@@ -21,9 +21,9 @@
 								</div>
 
 								<div class="col-lg-3 col-6 bottommargin-sm1 widget_links">
-									<h3 class="widget-title">Sell on evecosystem</h3>
+									<h3 class="widget-title">Sell on EVmax</h3>
 									<ul>
-								<li><a href="<?php echo base_url() ?>BecomeASeller/about">About evecosys </a></li>
+								<li><a href="<?php echo base_url() ?>BecomeASeller/about">About EVmax </a></li>
               							<li><a href="<?php echo base_url() ?>BecomeASeller/advantages">Advantages</a></li>
               							<li><a href="<?php echo base_url() ?>BecomeASeller/howitworks">How It Works</a></li>
               							<li><a href="<?php echo base_url() ?>BecomeASeller/pricing">Pricing </a></li>
@@ -33,7 +33,7 @@
 								</div>
 
 								<div class="col-lg-3 col-6 bottommargin-sm1 widget_links">
-									<h3 class="widget-title">Sell on evecosystem</h3>
+									<h3 class="widget-title">Sell on EVmax</h3>
 									<ul>
 										<li><a href="<?php echo base_url() ?>BecomeASeller/advertise">Advertise </a></li>
 										<li><a href="<?php echo base_url() ?>BecomeASeller/support">Expert Support Partners</a></li>
@@ -46,7 +46,7 @@
 									<h3 class="widget-title">Terms & Conditions</h3>
 									<ul>
 										
-										<li><a href="#">Evecosystem marketplace policy</a></li>
+										<li><a href="#">EVmax marketplace policy</a></li>
               							<li><a href="#">Terms of use</a></li>
               							<li><a href="#">Privacy Policy</a></li>
 									</ul>

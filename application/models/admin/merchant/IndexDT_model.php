@@ -17,7 +17,7 @@ class IndexDT_model extends CI_Model {
 
 	private function _get_datatables_query()
 	{
-		$this->db->select("st.state_name as state,group_concat(cat.category_name) as category_name,a.m_enquiry_id,a.first_name as first_name,a.last_name as last_name,a.mobile as mobile,a.company_name as company_name,a.address1 as website,a.address2 as address2,a.city as city,a.email as email,a.business_email as business_email,a.landline as landline,a.status as status,DATE_FORMAT(a.dateOfEnq, '%M %d %Y, %h:%m %p') as enquiry_date,a.archive");
+		$this->db->select("st.state_name as state,group_concat(cat.category_name SEPARATOR ', <br>') as category_name,a.m_enquiry_id,a.first_name as first_name,a.last_name as last_name,a.mobile as mobile,a.company_name as company_name,a.address1 as website,a.address2 as address2,a.city as city,a.email as email,a.business_email as business_email,a.landline as landline,a.status as status,DATE_FORMAT(a.dateOfEnq, '%M %d %Y, %h:%m %p') as enquiry_date,a.archive");
 		$this->db->from("$this->table a");
                  $this->db->join('m_cat_interested cat_int','cat_int.m_enquiry_id=a.m_enquiry_id','inner');
                  $this->db->join('m_category cat','cat.m_category_id=cat_int.cat_id','inner');

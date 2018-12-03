@@ -13,7 +13,7 @@
 <center>
 
 <div  style="margin-top:50px;padding:502px 0px;;height:auto;width:707px;background:url('<?php echo base_url();?>images/registrationEmail/2.png') no-repeat;background-size: 100%;" >
-  <h1 style="color: #344e9a;font-weight: 900;font-size: 33px;">EnquiryId :<?php echo $this->session->userdata('enquiry_id1')?></h1>
+  <h1 style="color: #344e9a;font-weight: 900;font-size: 33px;">Enquiry ID: <?php echo $this->session->userdata('enquiry_id1')?></h1>
     
 	
 </div>

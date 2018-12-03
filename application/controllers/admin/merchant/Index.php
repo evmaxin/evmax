@@ -74,7 +74,7 @@ class Index extends CI_Controller {
             $row[] = $fullname;
             $row[] = $customers->mobile;
             $row[] = $customers->email;
-            $row[] = ($customers->status==0)?"Pending":"Proccessing";
+            $row[] = ($customers->status==0)?"<span class='pending'>Pending</span>":"<span class='proccessing'>Proccessing</span>";
              $row[] = $customers->category_name;
             $row[] = $customers->city;
             $row[] = $customers->state;

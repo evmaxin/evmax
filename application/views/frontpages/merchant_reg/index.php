@@ -208,7 +208,7 @@
 
                             <input  type="text" placeholder="Email ID" id="businessEmail" name="businessEmail" class="form-control" title="Please check Email Id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
 
-                            <small style="color: green;font-weight: bold;">OTP will sent to this Email only, Please make sure this email is working</small>
+                            <small style="color: green;font-weight: bold;">OTP will be sent to this e-mail only, Please make sure this email is working</small>
                         </div>
                         <div class="form-group md-form mt-3">
                             <label class=" control-label labelEnquiry" >Contact Number *</label>
