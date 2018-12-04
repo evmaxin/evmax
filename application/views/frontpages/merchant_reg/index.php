@@ -120,7 +120,7 @@
 <div id="content1">
     <div class="container" >
         <div class="row">
-            <h2 class="text-center font-bold pt-4 pb-5 mb-5"><strong class="reg1 reg400">Registration form</strong></h2>
+            <h2 class="text-center font-bold pt-4 pb-5 mb-5"><strong class="reg1 reg400">Business Registration</strong></h2>
             <!-- Stepper -->
             <div class="steps-form-2">
                 <div class="steps-row-2 setup-panel-2 d-flex justify-content-between">
@@ -311,7 +311,7 @@
 
                             </p><br><br>
 
-                            <h5>E-COMMERCE SERVICES Agreement</h5><br>
+                            <h5>E-Commerce Services Agreement</h5><br>
                             <p>
                                 This E-Commerce Services Agreement (hereinafter referred to as “Agreement”) is made on the day of
                                 your acceptance of this Agreement from your designated electronic mail address or in any other form of
@@ -1843,8 +1843,8 @@
                 },
                 success: function (res) {
                     if (res === "1") {
-                        alert('OTP Verified successfully ,Registration is under proccess');
-                        window.location.href = "<?php echo base_url(); ?>Registration/index?q=success&msg=OTP Verified successfully ,Registration is under proccess";
+                        alert('OTP Verified successfully, Registration is under proccess');
+                        window.location.href = "<?php echo base_url(); ?>Registration/index?q=success&msg=OTP Verified successfully, Registration is under proccess";
                     } else {
                         alert('OTP Not Matching.');
                     }

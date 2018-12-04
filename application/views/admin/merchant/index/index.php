@@ -8,10 +8,10 @@
     color: #fff;
     }
     .proccessing{
-        color: orange;
+        color: darkgreen;
     }
     .pending{
-        color: red;
+        color: orange;
     }
     </style>
 <div class="page-content">

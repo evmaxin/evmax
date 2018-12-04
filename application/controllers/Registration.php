@@ -109,7 +109,7 @@ class Registration extends CI_Controller {
             $this->email->to($email); //customer email
             $body = $this->load->view('admin/email_templates/merchant/registrationSuccess', $contents, TRUE);
 			//$body = $this->load->view('admin/email_templates/sendProposal', $contents, TRUE);
-            $this->email->subject('Registration is Successful '.$this->config->item('config_from_emailname'));
+            $this->email->subject($this->config->item('config_from_emailname').' - Registration is successful');
             $this->email->message($body);
 
             $this->email->send();
@@ -184,8 +184,8 @@ class Registration extends CI_Controller {
              $this->email->from($this->config->item('config_from_email'), $this->config->item('config_from_emailname'));
 //            $this->email->from('info@digitalchimps.in', 'EVEcoSystem');
             $this->email->to($this->input->post('businessEmail')); //customer email
-            $body = "OTP for Registration is ".$this->session->userdata('otp');;
-            $this->email->subject('OTP for Registration');
+            $body = "OTP for Registration is ".$this->session->userdata('otp');
+            $this->email->subject($this->config->item('config_from_emailname').'- OTP for Registration');
             $this->email->message($body);
 
             $this->email->send();

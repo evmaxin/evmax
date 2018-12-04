@@ -6742,3 +6742,48 @@ http://localhost:1337/evmax/BecomeASeller/advertise	10.10.10.10	advertise	Chrome
 http://localhost:1337/evmax/BecomeASeller/about	10.10.10.10	about	Chrome{70.0.3538.110}	2018-12-03 18:44:12	0	Windows 8
 http://localhost:1337/evmax/BecomeASeller/about	10.10.10.10	about	Chrome{70.0.3538.110}	2018-12-03 18:45:07	0	Windows 8
 http://localhost:1337/evmax/BecomeASeller/about	10.10.10.10	about	Chrome{70.0.3538.110}	2018-12-03 18:46:35	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-04 10:37:27	0	Windows 8
+http://localhost:1337/evmax/BecomeASeller	10.10.10.10		Chrome{70.0.3538.110}	2018-12-04 11:38:04	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-04 11:38:26	0	Android
+http://localhost:1337/evmax/BecomeASeller	10.10.10.10		Chrome{70.0.3538.110}	2018-12-04 11:38:30	0	Android
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-04 11:38:32	0	Android
+http://localhost:1337/evmax/BecomeASeller	10.10.10.10		Chrome{70.0.3538.110}	2018-12-04 11:38:44	0	Android
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-04 11:38:49	0	Android
+http://localhost:1337/evmax/BecomeASeller	10.10.10.10		Chrome{70.0.3538.110}	2018-12-04 11:38:50	0	Android
+http://localhost:1337/evmax/BecomeASeller/about	10.10.10.10	about	Chrome{70.0.3538.110}	2018-12-04 11:38:57	0	Android
+http://localhost:1337/evmax/BecomeASeller/about	10.10.10.10	about	Chrome{70.0.3538.110}	2018-12-04 12:36:57	0	Windows 8
+http://localhost:1337/evmax/BecomeASeller/about	10.10.10.10	about	Chrome{70.0.3538.110}	2018-12-04 15:21:22	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 15:49:33	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 15:57:19	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 15:57:50	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 15:58:48	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 15:59:26	0	Windows 8
+http://localhost:1337/evmax/BecomeASeller/about	10.10.10.10	about	Chrome{70.0.3538.110}	2018-12-04 15:59:30	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 16:11:01	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:44:43	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:44:44	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:45:35	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:48:14	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:48:36	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:55:28	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:57:17	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:57:59	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 17:58:41	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:00:27	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:00:44	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:01:57	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:02:13	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:03:09	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:03:27	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:03:35	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:03:39	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:03:51	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:04:35	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:04:45	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:05:39	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:06:25	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:07:06	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:07:10	0	Windows 8
+http://localhost:1337/evmax/Registration/merchantData	10.10.10.10	merchantData	Chrome{70.0.3538.110}	2018-12-04 18:17:57	0	Windows 8
+http://localhost:1337/evmax/Registration/verifyOTP	10.10.10.10	verifyOTP	Chrome{70.0.3538.110}	2018-12-04 18:18:26	0	Windows 8
+http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:19:08	0	Windows 8

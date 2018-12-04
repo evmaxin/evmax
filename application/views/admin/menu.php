@@ -105,108 +105,7 @@
                                  
                                 </ul>
                             </li>
-                          
-                        
-                           <!-- <li class="nav-item  ">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="icon-graph"></i>
-                                    <span class="title">Battery Management</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item  ">
-                                        <a href="<?php //echo base_url();?>admin/Battery" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add / View Battery</span>
-                                        </a>
-                                  
-                                    </li>
-                                </ul>
-                    </li>-->
-                    <li class="nav-item  ">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="glyphicon glyphicon-map-marker"></i>
-                                    <span class="title">Delivery Locations</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/DeliveryLocation" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add / View Delivery Locations</span>
-                                        </a>
-                                  
-                                    </li>
-                                </ul>
-                    </li>
-                        <li class="nav-item  ">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="glyphicon glyphicon-map-marker"></i>
-                                    <span class="title">Mechanic Locations</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/Mechanics" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add / View Mechanics</span>
-                                        </a>
-                                  
-                                    </li>
-                                </ul>
-                    </li>
-                              <li class="nav-item  ">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="glyphicon glyphicon-map-marker"></i>
-                                    <span class="title">Pickup Locations</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/PickupLocation" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add / View Pickup Loc.</span>
-                                        </a>
-                                  
-                                    </li>
-                                </ul>
-                    </li>
-                            <li class="nav-item  ">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="icon-basket"></i>
-                                    <span class="title">Orders</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item ">
-                                        <a href="<?php echo base_url();?>admin/orders" class="nav-link ">
-                                            <i class="icon-tag"></i>
-                                            <span class="title"> View Orders </span>
-                                        </a>
-                                    </li>
-                                   
-                                                            
-                                 
-                                </ul>
-                            </li>
-                            <li class="nav-item  ">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="icon-user"></i>
-                                    <span class="title">Customers</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/customers" class="nav-link ">
-                                            <i class="icon-user"></i>
-                                            <span class="title">View Customers</span>
-                                        </a>
-                                    </li>
-                            
-                                   
-                                </ul>
-                            </li>
-                            <li class="nav-item  ">
+                          <li class="nav-item  ">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-layers"></i>
                                     <span class="title">Merchant Mgmt</span>
@@ -240,10 +139,10 @@
                                    
                                 </ul>
                             </li>
-                           <li class="nav-item  ">
+                        <li class="nav-item  ">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="fa fa-image" style="color: #fff;"></i>
-                                    <span class="title">Image Management</span>
+                                    <span class="title">Image (Content) Management</span>
                                     <span class="arrow"></span>
                                 </a>
                                 <ul class="sub-menu">
@@ -271,19 +170,28 @@
                                     <span class="title">Promotions Management</span>
                                     <span class="arrow"></span>
                                 </a>
-                               <!-- <ul class="sub-menu">
-                                    <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/product" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add / View Product</span>
+                              
+                            </li>
+                      <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-basket"></i>
+                                    <span class="title">Orders</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item ">
+                                        <a href="<?php echo base_url();?>admin/orders" class="nav-link ">
+                                            <i class="icon-tag"></i>
+                                            <span class="title"> View Orders </span>
                                         </a>
                                     </li>
-                                
+                                   
                                                             
                                  
-                                </ul>-->
+                                </ul>
                             </li>
-                             <li class="nav-item  ">
+                            
+                   <li class="nav-item  ">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-power"></i>
                                     <span class="title">Charging Stations</span>
@@ -317,6 +225,102 @@
                                    
                                                             
                                  
+                                </ul>
+                            </li>        
+                            <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-user"></i>
+                                    <span class="title">Customers</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/customers" class="nav-link ">
+                                            <i class="icon-user"></i>
+                                            <span class="title">View Customers</span>
+                                        </a>
+                                    </li>
+                            
+                                   
+                                </ul>
+                            </li>
+                             <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                    <span class="title">Mechanic Locations</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/Mechanics" class="nav-link ">
+                                            <i class="icon-clock"></i>
+                                            <span class="title">Add / View Mechanics</span>
+                                        </a>
+                                  
+                                    </li>
+                                </ul>
+                    </li>
+                    <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                    <span class="title">Delivery Locations</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/DeliveryLocation" class="nav-link ">
+                                            <i class="icon-clock"></i>
+                                            <span class="title">Add / View Delivery Locations</span>
+                                        </a>
+                                  
+                                    </li>
+                                </ul>
+                    </li>
+                       
+                              <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                    <span class="title">Pickup Locations</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/PickupLocation" class="nav-link ">
+                                            <i class="icon-clock"></i>
+                                            <span class="title">Add / View Pickup Loc.</span>
+                                        </a>
+                                  
+                                    </li>
+                                </ul>
+                    </li>
+                           
+                              <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-settings"></i>
+                                    <span class="title">Settings</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <!--<li class="nav-item  ">
+                                        <a href="<?php //echo base_url();?>admin/settings/" class="nav-link ">
+                                            <i class="icon-time"></i>
+                                            <span class="title">GST Rules</span>
+                                        </a>
+                                    </li>-->
+                                     <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/Menu/" class="nav-link ">
+                                            <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                            <span class="title">Menu</span>
+                                        </a>
+                                    </li>
+                                     <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/SubMenu/" class="nav-link ">
+                                            <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                            <span class="title">SubMenu</span>
+                                        </a>
+                                    </li>
+                            
+                                   
                                 </ul>
                             </li>
                              <li class="nav-item  ">
@@ -355,35 +359,7 @@
                                  
                                 </ul>
                             </li>
-                            <li class="nav-item  ">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="icon-settings"></i>
-                                    <span class="title">Settings</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <!--<li class="nav-item  ">
-                                        <a href="<?php //echo base_url();?>admin/settings/" class="nav-link ">
-                                            <i class="icon-time"></i>
-                                            <span class="title">GST Rules</span>
-                                        </a>
-                                    </li>-->
-                                     <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/Menu/" class="nav-link ">
-                                            <i class="glyphicon glyphicon-menu-hamburger"></i>
-                                            <span class="title">Menu</span>
-                                        </a>
-                                    </li>
-                                     <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/SubMenu/" class="nav-link ">
-                                            <i class="glyphicon glyphicon-menu-hamburger"></i>
-                                            <span class="title">SubMenu</span>
-                                        </a>
-                                    </li>
-                            
-                                   
-                                </ul>
-                            </li>
+                           
                             
                            
                             

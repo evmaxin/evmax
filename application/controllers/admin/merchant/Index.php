@@ -159,7 +159,7 @@ class Index extends CI_Controller {
             $this->email->to($this->input->post("email")); //customer email
             $body = $this->load->view('admin/email_templates/merchant/sendRegistrationLink', $contents, TRUE);
 			//$body = $this->load->view('admin/email_templates/sendProposal', $contents, TRUE);
-            $this->email->subject('Registration Form(s) link from '.$this->config->item('config_from_emailname'));
+            $this->email->subject($this->config->item('config_from_emailname').' - Registration Form(s) link from');
             $this->email->message($body);
 
             $this->email->send();
