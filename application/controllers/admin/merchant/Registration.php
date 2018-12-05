@@ -229,7 +229,7 @@ class Registration extends CI_Controller {
 
             $body = $this->load->view('admin/email_templates/merchant/sendApproveMail', $contents, TRUE);
 
-            $this->email->subject('Electric Vehicle Online Store Dashboard Information ' . $this->config->item('config_from_emailname'));
+            $this->email->subject($this->config->item('config_from_emailname').' - Electric Vehicle Online Store Dashboard Information');
             $this->email->message($body);
 
             $this->email->send();

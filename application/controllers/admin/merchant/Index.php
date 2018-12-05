@@ -211,7 +211,7 @@ class Index extends CI_Controller {
 
                 if($data['newPassword']===$data['confPassword'])
                 {  
-                    $msg = "Password Changed succussfully.";                    
+                    $msg = "Password changed succussfully.";                    
 		 $this->dashboard->updatePassword($data['username'],$data['newPassword']);
 		 $this->session->unset_userdata('admin_data');
 		 //$this->session->set_flashdata('fail', 'Password Changed succussfully');

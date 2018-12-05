@@ -27,6 +27,24 @@
                                     <span class="arrow"></span>
                                 </a>
                                 <ul class="sub-menu">
+                                         <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/dataMgnt/Brand/index" class="nav-link ">
+                                            <i class="icon-clock"></i>
+                                            <span class="title">Add Brand </span>
+                                        </a>
+                                    </li>
+                                     <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/dataMgnt/AddModel" class="nav-link ">
+                                            <i class="icon-clock"></i>
+                                            <span class="title">Add Model</span>
+                                        </a>
+                                    </li>
+									 <li class="nav-item  ">
+                                        <a href="<?php echo base_url();?>admin/dataMgnt/AddVarient" class="nav-link ">
+                                            <i class="icon-clock"></i>
+                                            <span class="title">Add Varient</span>
+                                        </a>
+                                    </li>  
                                     <li class="nav-item  ">
                                         <a href="<?php echo base_url();?>admin/product" class="nav-link ">
                                             <i class="icon-clock"></i>
@@ -41,46 +59,12 @@
                                         </a>
                                     </li>-->
                                     <?php } ?>
-                                          <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/dataMgnt/Brand/index" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add Brand </span>
-                                        </a>
-                                    </li>
-                                <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/dataMgnt/AddModel" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add Model</span>
-                                        </a>
-                                    </li>
-									 <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/dataMgnt/AddVarient" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add Varient</span>
-                                        </a>
-                                    </li>                      
+                                     
+                                                   
                                  
                                 </ul>
                             </li>
-                        
-                                   <li class="nav-item  ">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="glyphicon glyphicon-map-marker"></i>
-                                    <span class="title">Pickup Locations</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/PickupLocation" class="nav-link ">
-                                            <i class="icon-clock"></i>
-                                            <span class="title">Add / View Pickup Loc.</span>
-                                        </a>
-                                  
-                                    </li>
-                                </ul>
-                    </li>
-                            
-                            <li class="nav-item  ">
+                        <li class="nav-item  ">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-basket"></i>
                                     <span class="title">Orders</span>
@@ -104,20 +88,28 @@
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-large icon-tag"></i>
                                     <span class="title">Promotions Management</span>
+                                   
+                                </a>
+                            
+                            </li>
+                                   <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                    <span class="title">Pickup Locations</span>
                                     <span class="arrow"></span>
                                 </a>
-                               <!-- <ul class="sub-menu">
+                                <ul class="sub-menu">
                                     <li class="nav-item  ">
-                                        <a href="<?php echo base_url();?>admin/product" class="nav-link ">
+                                        <a href="<?php echo base_url();?>admin/PickupLocation" class="nav-link ">
                                             <i class="icon-clock"></i>
-                                            <span class="title">Add / View Product</span>
+                                            <span class="title">Add / View Pickup Loc.</span>
                                         </a>
+                                  
                                     </li>
-                                
-                                                            
-                                 
-                                </ul>-->
-                            </li>
+                                </ul>
+                    </li>
+                            
+                            
                             <li class="nav-item  ">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-settings"></i>

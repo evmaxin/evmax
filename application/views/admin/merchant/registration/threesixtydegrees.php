@@ -71,59 +71,71 @@
                                         <div class="portlet-body">
 
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> Company Name  </div>
-                                                <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->company_name ? $orders_data[0]->company_name : ''; ?> </div>
+                                                <div class="col-md-2 name"> Company Name  </div>
+                                                <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"> <?php echo $orders_data[0]->company_name ? $orders_data[0]->company_name : ''; ?> </div>
                                             </div>
                                             
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> Company Type  </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->company_type ? $orders_data[0]->company_type : ''; ?> </div>
+                                                <div class="col-md-2 name"> Company Type  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"> <?php echo $orders_data[0]->company_type ? $orders_data[0]->company_type : ''; ?> </div>
                                             </div>
                                         <div class="row static-info">
-                                                <div class="col-md-5 name"> Contact Person Name </div>
-                                                <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->name ? $orders_data[0]->name : ''; ?></div>
+                                                <div class="col-md-2 name"> Contact Person Name </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->name ? $orders_data[0]->name : ''; ?></div>
                                             </div>
 
 
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Phone Number </div>
-                                                <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->business_contact_no ? $orders_data[0]->business_contact_no : ''; ?> </div>
+                                                <div class="col-md-2 name">Phone Number </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->business_contact_no ? $orders_data[0]->business_contact_no : ''; ?> </div>
                                             </div>
 
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Email </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->business_email ? $orders_data[0]->business_email : ''; ?> </div>
+                                                <div class="col-md-2 name">Email </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->business_email ? $orders_data[0]->business_email : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Pan Card Number  </div>
-                                                <div class="col-md-7 value"> :&nbsp;<?php echo $orders_data[0]->business_pan ? $orders_data[0]->business_pan : ''; ?> </div>
+                                                <div class="col-md-2 name">Pan Card Number  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->business_pan ? $orders_data[0]->business_pan : ''; ?> </div>
                                             </div>
 
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">GST Number  </div>
-                                                <div class="col-md-7 value"> :&nbsp;<?php echo $orders_data[0]->gst_number ? $orders_data[0]->gst_number : ''; ?> </div>
+                                                <div class="col-md-2 name">GST Number  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->gst_number ? $orders_data[0]->gst_number : ''; ?> </div>
                                             </div>
  <div class="row static-info">
-                                                <div class="col-md-5 name">Bank Name  </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->bankname ? $orders_data[0]->bankname : ''; ?> </div>
+                                                <div class="col-md-2 name">Bank Name  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->bankname ? $orders_data[0]->bankname : ''; ?> </div>
                                             </div>
                                             
                                            
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Bank Branch  </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->bankbranch ? $orders_data[0]->bankbranch : ''; ?> </div>
+                                                <div class="col-md-2 name">Bank Branch  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->bankbranch ? $orders_data[0]->bankbranch : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">IFSC Code  </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->ifsc ? $orders_data[0]->ifsc : ''; ?> </div>
+                                                <div class="col-md-2 name">IFSC Code  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"> <?php echo $orders_data[0]->ifsc ? $orders_data[0]->ifsc : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Bank Account Number  </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->bank_account ? $orders_data[0]->bank_account : ''; ?> </div>
+                                                <div class="col-md-2 name">Bank Account Number  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->bank_account ? $orders_data[0]->bank_account : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Bank Account Name  </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->account_name ? $orders_data[0]->account_name : ''; ?> </div>
+                                                <div class="col-md-2 name">Bank Account Name  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->account_name ? $orders_data[0]->account_name : ''; ?> </div>
                                             </div>
 
 
@@ -137,24 +149,28 @@
 
 
                                             <div class="row static-info">
-                                                <div class="col-md-12 name"> <b> Company Address  : </b> </div>
+                                                <div class="col-md-12 name"> <b> Company Address  </b> </div>
 
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> Address  </div>
-                                                <div class="col-md-7 value"> :&nbsp;<?php echo $orders_data[0]->address1 ? $orders_data[0]->address1 : ''; ?> </div>
+                                                <div class="col-md-2 name"> Address  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->address1 ? $orders_data[0]->address1 : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> City </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->city ? $orders_data[0]->city : ''; ?> </div>
+                                                <div class="col-md-2 name"> City </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"> <?php echo $orders_data[0]->city ? $orders_data[0]->city : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> State  </div>
-                                                <div class="col-md-7 value"> :&nbsp;<?php echo $orders_data[0]->state ? $orders_data[0]->state : ''; ?> </div>
+                                                <div class="col-md-2 name"> State  </div>
+                                                <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->state ? $orders_data[0]->state : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Pincode  </div>
-                                                <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->pincode ? $orders_data[0]->pincode : ''; ?> </div>
+                                                <div class="col-md-2 name">Pincode  </div>
+                                                 <div class="col-md-4"> :&nbsp;</div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->pincode ? $orders_data[0]->pincode : ''; ?> </div>
                                             </div>
 
                                         </div>
@@ -172,46 +188,46 @@
                                         <div class="portlet-body">
                                             
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Phone Number</div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->phone ? $orders_data[0]->phone : ''; ?> </div>
+                                                <div class="col-md-2 name">Phone Number</div>
+                                                <div class="col-md-6 value">:&nbsp; <?php echo $orders_data[0]->phone ? $orders_data[0]->phone : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Alternative Number </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->alternative_number ? $orders_data[0]->alternative_number : ''; ?> </div>
+                                                <div class="col-md-2 name">Alternative Number </div>
+                                                <div class="col-md-6 value">:&nbsp; <?php echo $orders_data[0]->alternative_number ? $orders_data[0]->alternative_number : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> Email </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->person_email ? $orders_data[0]->person_email : ''; ?> </div>
+                                                <div class="col-md-2 name"> Email </div>
+                                                <div class="col-md-6 value">:&nbsp; <?php echo $orders_data[0]->person_email ? $orders_data[0]->person_email : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Pan Card Number  </div>
-                                                <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->person_pan_num ? $orders_data[0]->person_pan_num : ''; ?> </div>
-                                            </div>
-
-                                            <div class="row static-info">
-                                                <div class="col-md-5 name">Adhaar Number  </div>
-                                                <div class="col-md-7 value"> :&nbsp; <?php echo $orders_data[0]->adhaar ? $orders_data[0]->adhaar : ''; ?> </div>
+                                                <div class="col-md-2 name">Pan Card Number  </div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->person_pan_num ? $orders_data[0]->person_pan_num : ''; ?> </div>
                                             </div>
 
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> <b>Personal Address : </b> </div>
+                                                <div class="col-md-2 name">Adhaar Number  </div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->adhaar ? $orders_data[0]->adhaar : ''; ?> </div>
+                                            </div>
+
+                                            <div class="row static-info">
+                                                <div class="col-md-2 name"> <b>Personal Address : </b> </div>
 
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> Address  </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->person_address ? $orders_data[0]->person_address : ''; ?> </div>
+                                                <div class="col-md-2 name"> Address  </div>
+                                                <div class="col-md-6 value">:&nbsp; <?php echo $orders_data[0]->person_address ? $orders_data[0]->person_address : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> City  </div>
-                                                <div class="col-md-7 value"> :&nbsp;<?php echo $orders_data[0]->person_city ? $orders_data[0]->person_city : ''; ?> </div>
+                                                <div class="col-md-2 name"> City  </div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->person_city ? $orders_data[0]->person_city : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> State  </div>
-                                                <div class="col-md-7 value"> :&nbsp;<?php echo $orders_data[0]->persnoal_state ? $orders_data[0]->persnoal_state : ''; ?> </div>
+                                                <div class="col-md-2 name"> State  </div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->persnoal_state ? $orders_data[0]->persnoal_state : ''; ?> </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Pincode </div>
-                                                <div class="col-md-7 value">:&nbsp; <?php echo $orders_data[0]->person_pincode ? $orders_data[0]->person_pincode : ''; ?> </div>
+                                                <div class="col-md-2 name">Pincode </div>
+                                                <div class="col-md-6 value">:&nbsp; <?php echo $orders_data[0]->person_pincode ? $orders_data[0]->person_pincode : ''; ?> </div>
                                             </div>
 
                                         </div>
@@ -230,29 +246,29 @@
                                         </div>
                                         <div class="portlet-body">
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> Registration Status  </div>
-                                                <div class="col-md-7 value"> 
+                                                <div class="col-md-2 name"> Registration Status  </div>
+                                                <div class="col-md-6 value"> 
 
 
                                                     <?php
                                                     if ($orders_data[0]->otp_status == 1) {
                                                         ?>
-                                                        <span class="label label-info label-sm" style="background:#5fa95f"> Email OTP verified successfully </span>
+                                                        <span class="label label-info label-sm" style="background:#5fa95f"> OTP verified successfully </span>
 
                                                     <?php } else { ?>
-                                                        <span class="label label-info label-sm" style="background:#f57769"> Email OTP Not verified </span>
+                                                        <span class="label label-info label-sm" style="background:#f57769"> OTP not verified </span>
 
                                                     <?php } ?>  
 
                                                 </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Registration Date & Time </div>
-                                                <div class="col-md-7 value">  :&nbsp; <?php echo $orders_data[0]->regDate ? date_format($date, 'F jS,  Y g:ia ') : ''; ?>  </div>
+                                                <div class="col-md-2 name">Registration Date & Time </div>
+                                                <div class="col-md-6 value">  :&nbsp; <?php echo $orders_data[0]->regDate ? date_format($date, 'F jS,  Y g:ia ') : ''; ?>  </div>
                                             </div>
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> Categories Selected </b> </div>
-                                                <div class="col-md-7 value">: 
+                                                <div class="col-md-2 name"> Categories Selected </b> </div>
+                                                <div class="col-md-6 value">: 
                                                     <?php
                                                     $categoryNames = $orders_data[0]->category_name ? $orders_data[0]->category_name : '';
                                                     if ($categoryNames != '') {
@@ -291,8 +307,8 @@
                                         </div>
                                         <div class="portlet-body">
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">Admin Approve </div>
-                                                <div class="col-md-7 value"> :&nbsp;
+                                                <div class="col-md-2 name">Admin Approve </div>
+                                                <div class="col-md-6 value">
 <?php
 $admin_approved = $orders_data[0]->admin_approved;
 
@@ -307,14 +323,14 @@ if ($admin_approved == 0) {
 
 
                                             <div class="row static-info">
-                                                <div class="col-md-5 name">User Name </div>
-                                                <div class="col-md-7 value"> :&nbsp;<?php echo $orders_data[0]->business_email ? $orders_data[0]->business_email : ''; ?> </div>
+                                                <div class="col-md-2 name">User Name </div>
+                                                <div class="col-md-6 value"><?php echo $orders_data[0]->business_email ? $orders_data[0]->business_email : ''; ?> </div>
                                             </div>
 
 
                                             <div class="row static-info">
-                                                <div class="col-md-5 name"> </div>
-                                                <div class="col-md-7 value"> 
+                                                <div class="col-md-2 name"> </div>
+                                                <div class="col-md-6 value"> 
 <?php
 if ($admin_approved == 0) {
     ?>
@@ -382,7 +398,7 @@ if ($admin_approved == 0) {
                         data: {
                             name: userName,
                             email: email,
-							company:company,
+                            company:company,
                             approvedId: approvedId,
                             approveStatus: approveStatus,
                             phoneMb: phoneMb,
@@ -396,7 +412,8 @@ if ($admin_approved == 0) {
                         }});
                 } else
                 {
-                    alert("not changed");
+                    alert("This operation has been cancelled by user");
+                    location.reload();
                 }
 
 $('#approvedUser').prop('disabled', true);
@@ -407,7 +424,7 @@ $('#approvedUser').prop('disabled', true);
                 var approvedId1 = $(this).attr("data");
                 var approveStatus1 = $(this).attr("value");
                 var name1 = $(this).attr("name");
-                var result1 = confirm("Do you want to Deactivate  " + name1 + " Merchant  Account ?");
+                var result1 = confirm("Do you want to Deactivate  " + name1 + " Merchant Account ?");
                 if (result1)
                 {
                     $.ajax({url: '<?php echo base_url() . 'admin/merchant/Registration/ApprovedUser'; ?>',
@@ -427,7 +444,8 @@ $('#approvedUser').prop('disabled', true);
                         }});
                 } else
                 {
-                    alert("not changed");
+                    alert("This operation has been cancelled by user");
+                    location.reload();
                 }
 
 

@@ -68,6 +68,12 @@ width: 100%;
 .row{
     margin-right: 26px !important;
 }
+.alert-success {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+}
         </style>
     </head>
     <!-- END HEAD -->

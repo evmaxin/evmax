@@ -6787,3 +6787,8 @@ http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.353
 http://localhost:1337/evmax/Registration/merchantData	10.10.10.10	merchantData	Chrome{70.0.3538.110}	2018-12-04 18:17:57	0	Windows 8
 http://localhost:1337/evmax/Registration/verifyOTP	10.10.10.10	verifyOTP	Chrome{70.0.3538.110}	2018-12-04 18:18:26	0	Windows 8
 http://localhost:1337/evmax/Registration/index	10.10.10.10	index	Chrome{70.0.3538.110}	2018-12-04 18:19:08	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-05 13:05:10	0	Windows 8
+http://localhost:1337/evmax/c/vehicles&e-scooters/1	10.10.10.10	vehicles&e-scooters	Chrome{70.0.3538.110}	2018-12-05 13:05:13	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-05 13:05:28	0	Windows 8
+http://localhost:1337/evmax/BecomeASeller	10.10.10.10		Chrome{70.0.3538.110}	2018-12-05 13:05:48	0	Windows 8
+http://localhost:1337/evmax/	10.10.10.10		Chrome{70.0.3538.110}	2018-12-05 13:24:38	0	Windows 8

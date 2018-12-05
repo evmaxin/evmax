@@ -67,7 +67,7 @@
                                               </div>
                                                                     
                                               <div class="form-group">
-                                                  <label class="control-label">Brand Name <span class="required">*</span></label>
+                                                  <label class="control-label">Brand Name <span class="required">*</span> (Ex: Activa)</label>
                                                   <input type="text" name="name" id="name" class="form-control" required /> <br>
 
                                               </div>
