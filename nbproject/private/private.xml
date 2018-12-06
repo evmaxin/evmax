@@ -3,9 +3,25 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/admin/DataMgnt/brand/edit.php</file>
             <file>file:/C:/xampp/htdocs/evmax/application/views/frontpages/becomeaseller/about.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/admin/email_templates/merchant/sendApproveMail.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/admin/merchant/index/changePassword.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/controllers/admin/Index.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/controllers/admin/merchant/Registration.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/controllers/Registration.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/controllers/Ajax.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/admin/index/merchantLogin.php</file>
             <file>file:/C:/xampp/htdocs/evmax/application/views/frontpages/footer_becomeaseller.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/admin/menu1.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/controllers/BecomeASeller.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/frontpages/header_becomeaseller.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/admin/merchant/registration/threesixtydegrees.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/admin/DataMgnt/brand/index.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/config/routes.php</file>
             <file>file:/C:/xampp/htdocs/evmax/application/views/frontpages/merchant_reg/index.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/views/admin/menu.php</file>
+            <file>file:/C:/xampp/htdocs/evmax/application/controllers/admin/merchant/Index.php</file>
         </group>
     </open-files>
 </project-private>
