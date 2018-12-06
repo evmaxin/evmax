@@ -1936,6 +1936,7 @@ $.fn.myFunction = function(){
         alert('Please Enter Valid GSTIN Number');
         $(".gst_number").val('');
         $(".gst_number").focus();
+        return false;
     }
     }
 </script>  

@@ -187,7 +187,8 @@ class Index extends CI_Controller {
      public function changeMerchantPassword() {
              
                 $this->form_validation->set_rules('newPassword', 'Password', 'required');
-                $this->form_validation->set_rules('confirmPassword', 'Password Confirmation', 'required|matches[newPassword]');
+                $this->form_validation->set_rules('confirmPassword', 'Password Confirmation', 'required|matches[newPassword]',
+                                                                array('matches' => 'Password and confirm Password not matched'));
                 //$this->form_validation->set_rules('email', 'Email', 'required|is_unique[users.email]');
 
                 if ($this->form_validation->run() == FALSE)

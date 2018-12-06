@@ -9,6 +9,12 @@
 #result{
     font-weight: bold;
 }
+#frmCheckPassword {border-top:#F0F0F0 2px solid;background:#FAF8F8;padding:10px;}
+.demoInputBox{padding:7px; border:#F0F0F0 1px solid; border-radius:4px;}
+#password-strength-status {padding: 5px 10px;color: #FFFFFF; border-radius:4px;margin-top:5px;}
+.medium-password{background-color: #E4DB11;border:#BBB418 1px solid;}
+.weak-password{background-color: #FF6600;border:#AA4502 1px solid;}
+.strong-password{background-color: #12CC1A;border:#0FA015 1px solid;}
 </style>
 <div class="page-content">
 
@@ -17,26 +23,29 @@
         <div class="col-md-12">
           
                       <div class="modal-body modal-content changePasswordBox">
-                          	<form action="<?php echo base_url()?>admin/merchant/Index/changeMerchantPassword" method="post" id="changePassword"> 
-                                    <small style="position: relative;top: -8px;color: red;">Minimum password length is 6 characters</small>
+                          	<form action="<?php echo base_url()?>admin/merchant/Index/changeMerchantPassword" method="post" id="changePassword1"> 
+                                    <small style="position: relative;top: -8px;color: red;">Minimum password length is 8 characters, should include alphabets, numbers and special characters.</small>
 					<div class="input-group">
 					  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                          <input  type="password" class="form-control" id="newPassword" name="newPassword" placeholder="New Password" required pattern=".{4,20}" value="<?php echo set_value('newPassword'); ?>">
+                                          <input  type="password" class="form-control" id="newPassword" name="newPassword" placeholder="New Password" required pattern=".{8,20}" onKeyUp="checkPasswordStrength();" value="<?php echo set_value('newPassword'); ?>">
 					</div>
 					<br>
 					
 					<div class="input-group">
 					  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-					  <input type="password" class="form-control"  id="confirmPassword" name="confirmPassword" placeholder="Confirm  Password" required pattern=".{4,20}" value="<?php echo set_value('confirmPassword'); ?>">
+					  <input type="password" class="form-control"  id="confirmPassword" name="confirmPassword" placeholder="Confirm  Password" required pattern=".{8,20}" value="<?php echo set_value('confirmPassword'); ?>">
 					</div>
-                                        <span id="result"></span>
+                                       <div id="password-strength-status"></div>
 				    <div class="input-group">
 					    <label id="passwordError"></label>
 						
 					</div>
 					<br/>
-					     <button type="submit" class="btn btn-info" name="changePassword" value="Change Password" style="background:#337ab7;">Update</button>      
-                                             <a href="<?php echo base_url()?>admin/merchant/Index/logout">Back</a>      
+                                        
+                                        <button type="submit" class="btn btn-info" id="changePassword" class="changePassword" name="changePassword" style="display: none;" value="Change Password" style="background:#337ab7;">Update</button>      
+                                        <a href="<?php echo base_url()?>admin/merchant/Index/logout" class="btn green">Back</a>      
+                                             <br>
+                                             <br><div id="show" style="display: none;"><input type="checkbox" onclick="myFunction()">Show Password</div>
                                 </form> 
         </div>
 
@@ -46,41 +55,40 @@
 
 
 <script>
-    $(document).ready(function() {
-$('#newPassword').keyup(function() {
-$('#result').html(checkStrength($('#newPassword').val()));
-});
-function checkStrength(password) {
-var strength = 0
-if (password.length < 4) {
-$('#result').removeClass()
-$('#result').addClass('short')
-return 'Too short'
+   function checkPasswordStrength() {
+       $("#show").show();
+       $("#changePassword").hide();
+      var number = /([0-9])/;
+	var alphabets = /([a-zA-Z])/;
+	var special_characters = /([~,!,@,#,$,%,^,&,*,-,_,+,=,?,>,<])/;
+	
+	if($('#newPassword').val().length<8) {
+		$('#password-strength-status').removeClass();
+		$('#password-strength-status').addClass('weak-password');
+		$('#password-strength-status').html("Weak (should be atleast 8 characters.)");
+	} else {  	
+	    if($('#newPassword').val().match(number) && $('#newPassword').val().match(alphabets) && $('#newPassword').val().match(special_characters)) {            
+                //document.getElementById("changePassword").disabled = false;
+               // $('#').prop('disabled', false);
+              $("#changePassword").show();
+			$('#password-strength-status').removeClass();
+			$('#password-strength-status').addClass('strong-password');
+			$('#password-strength-status').html("Strong");
+        } else {
+            $("#changePassword").hide();
+			$('#password-strength-status').removeClass();
+			$('#password-strength-status').addClass('medium-password');
+			$('#password-strength-status').html("Medium (should include alphabets, numbers and special characters.)");
+        } 
+	}
 }
-if (password.length > 6) strength += 1
-// If password contains both lower and uppercase characters, increase strength value.
-if (password.match(/([a-z].*[A-Z])|([A-Z].*[a-z])/)) strength += 1
-// If it has numbers and characters, increase strength value.
-if (password.match(/([a-zA-Z])/) && password.match(/([0-9])/)) strength += 1
-// If it has one special character, increase strength value.
-if (password.match(/([!,%,&,@,#,$,^,*,?,_,~])/)) strength += 1
-// If it has two special characters, increase strength value.
-if (password.match(/(.*[!,%,&,@,#,$,^,*,?,_,~].*[!,%,&,@,#,$,^,*,?,_,~])/)) strength += 1
-// Calculated strength value, we can return messages
-// If value is less than 2
-if (strength < 2) {
-$('#result').removeClass()
-$('#result').addClass('weak')
-return 'Weak'
-} else if (strength == 2) {
-$('#result').removeClass()
-$('#result').addClass('good')
-return 'Good'
-} else {
-$('#result').removeClass()
-$('#result').addClass('strong')
-return 'Strong'
+function myFunction() {
+    var x = document.getElementById("newPassword");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
 }
-}
-});
     </script>
+  

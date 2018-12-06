@@ -48,6 +48,11 @@ class Footerlinks extends CI_Controller {
         $template['content'] = $this->load->view('frontpages/footerlinks/refundandcancellation', $contents, TRUE);
         $this->load->view('frontpages/template', $template);
     }
+     public function shipping() {
+       
+        $template['content'] = $this->load->view('frontpages/footerlinks/shipping', $contents, TRUE);
+        $this->load->view('frontpages/template', $template);
+    }
     public function contact() {
        
         $template['content'] = $this->load->view('frontpages/footerlinks/contact', $contents, TRUE);

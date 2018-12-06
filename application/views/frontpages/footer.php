@@ -113,6 +113,8 @@ materials or services.</p>
             <div class="payment pull-right">
              <ul>
                   <li class="max7"><a target="_blank" href="<?php echo base_url() ?>terms-conditions" class="max8"> Conditions Of Use & Sale |</a></li>
+				  <li class="max7"><a target="_blank" href="<?php echo base_url() ?>registration-process" class="max8">Registration Process | </a></li>
+				   <li class="max7"><a target="_blank" href="<?php echo base_url() ?>footerlinks/shipping" class="max8">Shipping | </a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>privacy-policy" class="max8">Privacy Notice | </a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>refundandcancellation" class="max8"> Refund and Cancellation |</a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>registration-process" class="max8">Registration Process | </a></li>
@@ -134,7 +136,7 @@ materials or services.</p>
             <div class="col-md-6 col-sm-6 col-xs-12">
             <ul>
                   <li class="max7"><a target="_blank" href="<?php echo base_url() ?>terms-conditions" class="max8"> Conditions Of Use & Sale |</a></li>
-              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>privacy-policy" class="max8">Privacy Notice | </a></li>
+              <li class="max7"><a target="_blank" href="<?php echo base_url() ?>footerlinks/shipping" class="max8">Shipping| </a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>refundandcancellation" class="max8"> Refund and Cancellation |</a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>registration-process" class="max8">Registration Process | </a></li>
               <li class="max7"><a target="_blank" href="<?php echo base_url() ?>contact" class="max8">Contact</a></li>
